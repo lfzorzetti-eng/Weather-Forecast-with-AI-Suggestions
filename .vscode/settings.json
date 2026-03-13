@@ -1,0 +1,8 @@
+{
+    "trae.enableCodelens": {
+        "enableInlineDocumentation": false,
+        "enableInlineExplain": false
+    },
+    "livePreview.defaultPreviewPath": "/index.html",
+    "git.ignoreLimitWarning": true
+}

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url("https://loremflickr.com/1600/900/nature,weather,landscape,blackandwhite");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.caixa-maior {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 246, 246, 0.2);
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #0000002b;
+    color: rgb(255, 255, 255);
+    width: calc(100% -100px);
+    font-size: 20px;
+}
+
+.botao {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #7c7c7c2b;
+    margin-left: 8px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #7c7c7c;
+    transform: scale(1.2);
+}
+
+.botao:active {
+    transform: scale(0.5);
+}
+
+.caixa-media {
+    margin-top: 30px;
+    color: white;
+}
+
+.cidade {
+    font-size: 28px;
+    color: white;
+}
+
+.temp {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.umidade {
+    color: white;
+
+}
+
+
+.botao-ia {
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(14, 121, 252);
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(45deg, #0e79fc, #022f66);
+    background-size: right center;
+    box-shadow: 0 0 15px rgba(14, 121, 252, 0.5);
+}
+
+.botao-ia:active {
+    transform: scale(0.2);
+    opacity: 0.8;
+}
+
+.botao-ia:hover {
+    background-color: rgb(2, 47, 102);
+    transform: scale(1.03);
+    background-position: right center;
+    box-shadow: 0 0 15px rgba(14, 121, 252, 0.5);
+}
+
+.resposta-ia {
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: bolder;
+}
